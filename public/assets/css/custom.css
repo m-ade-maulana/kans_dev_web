@@ -1,0 +1,74 @@
+body {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Raleway", sans-serif;
+    background: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #0d6efd !important;
+}
+
+.hero {
+    background: linear-gradient(135deg, #5a8dee, #2a5db0);
+    color: white;
+    padding: 6rem 1rem 4rem;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 700;
+    font-size: 2.75rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0.8rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.community-section {
+    background: #ffffff;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.footer {
+    background: #0d6efd;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer a {
+    color: #bee3ff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
