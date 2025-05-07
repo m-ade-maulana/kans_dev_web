@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y libzip-dev unzip git && docker-php-ext-
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
+# Lingkup file
 WORKDIR /var/www/html
 
 COPY . .
